@@ -1,0 +1,29 @@
+How did viewing a FC between two versions of a file help you see the bug that was introduced?
+
+The FC command from the Windows Command line shows only the differences between files. This lets you focus only on what changed, saving you massive amounts of time as compared to having to go line by line through a large file.
+
+How could ahving easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having version history would always allow you to revert a "working file" if a mistake prevented your code from running. You could then comapre your new version to a the working version to more efficiently find the error(s)
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: more control, can choose to make commits when logically appropriate
+
+Cons: not automatic, requires conscious thought effort on part of user
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is designed to track changes in programs, and often when you make a change (e.g. a function) in one file of a program it needs to be updated in other files that have a dependency as well. Git thus allows you to save multiple files (i.e. all that needed to be updated) in a single commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows you the commit history. Hopefully the messages are descripitive enough for you to pick out the commits of interest. You can then use git diff on the commit of interest and the previous commit (one lower in the list of commits) to check any differences between the two.
+
+How might using version control make you more confident to make changes that could break something?
+
+You can simply revert to a previous working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+My coding projects for Udacity!
