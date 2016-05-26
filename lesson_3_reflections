@@ -17,3 +17,7 @@ Branch - commits on a diffferent "reachability" path; use to experiment with cha
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 You can make fast forward merges!
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+You could have common copies of files on file sharing services like Google Docs/Dropbox and then iteratively save new versions as new changes are made. It would be somewhat simpler to make a change, but much more difficult to synchronize changes betwen iterations.
