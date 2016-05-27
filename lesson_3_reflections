@@ -21,3 +21,7 @@ You can make fast forward merges!
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 You could have common copies of files on file sharing services like Google Docs/Dropbox and then iteratively save new versions as new changes are made. It would be somewhat simpler to make a change, but much more difficult to synchronize changes betwen iterations.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+The two main times I think I would want to make a branch is if I was testing out a completely new feature/functionality or if I wanted to create a pull request and get specific feedback on something before incorporating it into the master. The advantage of a branch is that it allows you to compartamentalize your code and makes it easier to get specific feedback through pull requests.
